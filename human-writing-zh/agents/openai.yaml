@@ -1,0 +1,4 @@
+interface:
+  display_name: "人话写作"
+  short_description: "中文去 AI 味，保真且有分寸"
+  default_prompt: "Use $human-writing-zh to make this Chinese text natural, specific, and appropriate for its audience while preserving its facts and stance."
