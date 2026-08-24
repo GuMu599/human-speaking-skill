@@ -10,7 +10,10 @@ $requiredPhrases = @(
     '应改 / 不应改',
     '原作样本',
     '不复制特定作者',
-    'reference/evidence-and-evaluation.md'
+    'reference/evidence-and-evaluation.md',
+    '材料门槛',
+    '段落推进',
+    '动作级信号'
 )
 
 foreach ($phrase in $requiredPhrases) {
