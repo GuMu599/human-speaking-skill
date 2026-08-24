@@ -9,7 +9,7 @@
 - **候选卡片/摘要**：只看到搜索结果或摘要，不能等同全文阅读，只能作为后续线索。
 - **一手项目精读**：已阅读项目的核心规则/源码说明，并核对许可证；允许学习抽象方法，不迁移原文。
 
-首轮检索候选总量：知乎 111、小红书 102、抖音 63、公众号索引 55。平台候选已经达到“每个平台至少 50 条”。截至本次更新，完成正文精读的平台材料为知乎 50 篇、公众号 33 篇、小红书 2 篇、抖音 36 篇；本矩阵会持续将实际精读状态逐条落档，不能将候选数误报为已全文精读数。精确进度及去重口径见 `reading-progress-2026-08-24.md`。
+首轮检索候选总量：知乎 111、小红书 102、抖音 63、公众号索引 55。平台候选已经达到“每个平台至少 50 条”。截至本次更新，完成正文精读的平台材料为知乎 50 篇、公众号 36 篇、小红书 2 篇、抖音 42 篇；本矩阵会持续将实际精读状态逐条落档，不能将候选数误报为已全文精读数。精确进度及去重口径见 `reading-progress-2026-08-24.md`。
 
 ## 已全文精读的平台材料
 
@@ -124,6 +124,40 @@
 | [别再让文章满屏 AI 味儿了](https://www.douyin.com/search/GitHub%E5%BE%88%E6%A3%92%20%E5%8E%BBAI%E5%91%B3?modal_id=7597840232445066993&type=general) | GitHub很棒 | 以 Humanizer 为例，列出“此外、至关重要”等高频套路。 | 模式仅作复查线索；排除“瞬间变真人”等效果承诺。 |
 | [AI 写的东西都有股 AI 味儿](https://www.douyin.com/search/GitHub%E5%BE%88%E6%A3%92%20%E5%8E%BBAI%E5%91%B3?modal_id=7673139036430052250&type=general) | 奕清欢（养成系） | 个人试用后报告部分套话被清理，读感更接近材料。 | 不把单次主观报告当检测结论；不设硬禁词。 |
 | [最怕彻底洗掉“人味”](https://www.douyin.com/search/GitHub%E5%BE%88%E6%A3%92%20%E5%8E%BBAI%E5%91%B3?modal_id=7650746833064529204&type=general) | GitHub很棒 | 强调保留用户停顿、语气和不完美表达，改后再复核。 | 保护用户明确保留的表达；不把语病或不完美普遍化。 |
+
+## 抖音逐篇精读日志（第 4 批：继续核验净新增 2 条）
+
+| 详情 | 作者 | 读到的核心 | 可迁移/排除 |
+|---|---|---|---|
+| [超采样写作法](https://www.douyin.com/search/AI%E5%86%99%E4%BD%9C%E4%BA%BA%E8%AF%9D?modal_id=7612301401116396863&type=general) | 游戏阿龙 | 公开说明将“超采样写作法”拆成“扩散、裁剪、浓缩”三步，先产生候选，再筛选压缩。 | 可作为分阶段编辑结构；不把扩散数量、长度、随机性或作者的质量自述当验收指标。 |
+| [AI写的稿一眼假？差这几个去味skill](https://www.douyin.com/search/AI%E5%86%99%E8%84%9A%E6%9C%AC%20%E5%8E%BBAI%E5%91%B3?modal_id=7651894769224746213&type=general) | 小澈的赛博茶水间 | 图文正文直接给出“先看出 AI 味在哪→改成人话→写出自己的文风”的三段流程。 | 采用诊断—表达调整—自有文风校准的分层；不从“效果不错”推导检测结论，不复制未展开的第三方 Skill 规则。 |
+
+## 抖音逐篇精读日志（第 5 批：新增 4 条公开章节正文）
+
+| 详情 | 作者 | 读到的核心 | 可迁移/排除 |
+|---|---|---|---|
+| [简单几步训练 AI，文稿风格高度统一](https://www.douyin.com/search/AI%E5%86%99%E4%BD%9C%E4%BA%BA%E8%AF%9D?modal_id=7628517185358531903&type=general) | 笔杆子成长日记 | 分轮投喂不同文种范文，分别设定角色与任务，以维持文种风格一致。 | 仅采用先确定文种、读者和任务再编辑表达；排除把身份设定、上下文记忆或风格统一当真实性保证。 |
+| [为什么 AI 写的东西一眼就能看出来？](https://www.douyin.com/search/AI%E5%86%99%E4%BD%9C%E4%BA%BA%E8%AF%9D?modal_id=7675699558587960618&type=general) | 网络小白_Uncle城 | 将 AI 味分为套路句式、讨好腔、空洞大词和失配比喻，并按信息解锁、分析、生成、质检组织流程。 | 采用把宽泛症状聚类成可复查信号，改后再做质量核对；排除未核验的因果和效果自述。 |
+| [如何让 AI 写的东西没有 AI 味](https://www.douyin.com/search/AI%E5%86%99%E4%BD%9C%E4%BA%BA%E8%AF%9D?modal_id=7655237445868424475&type=general) | YAN（赚钱版） | 逐项讨论破折号、假对立、凑三、句尾总结、固定节奏、全程笃定、假故事与假精确等信号。 | 可作中文复查清单候选；真实细节与观点必须来自原作者。排除固定次数、强制犹豫、检测规避和编造经历。 |
+| [用 AI 写出高播放量文案（喂饭版）](https://www.douyin.com/search/AI%E5%86%99%E4%BD%9C%E4%BA%BA%E8%AF%9D?modal_id=7611180141149965568&type=general) | 行者夏夏 | 将人设、受众画像、口播结构、语言风格、禁止承诺和输出格式拆开，先约束任务再写。 | 只保留受众、媒介和语体先于措辞的路由；排除播放量承诺、虚构身份画像、互动模板和增长指标。 |
+
+## 抖音逐篇精读日志（第 6 批：新增 4 条公开章节正文）
+
+| 详情 | 作者 | 读到的核心 | 可迁移/排除 |
+|---|---|---|---|
+| [如何让 AI 写的东西没有 AI 味](https://www.douyin.com/search/%E5%8E%BBAI%E5%91%B3%E6%95%99%E7%A8%8B?modal_id=7576633362791975547&type=general) | 清华姜学长 | 章节讨论模型选择、范文调教、节奏与细节、不完美和技术参数。 | 只保留体裁/材料/节奏先于表层词语的思路；排除温度、top_p 或随机性作为人味指标。 |
+| [AI 写的东西一眼假？几个 Skill 帮你一键去味](https://www.douyin.com/search/%E5%8E%BBAI%E5%91%B3%E6%95%99%E7%A8%8B?modal_id=7655700217359011577&type=general) | 清华姜学长 | 章节把 Humanizer-zh、shuorenhua、nuwa-skill 分为找痕迹、清中文黑话、学自有风格，并强调素材与判断才是根源。 | 采用阶段分工与材料优先；不复制项目规则，不把“风格学习”扩展到第三方样本。 |
+| [去 AI 味邪修教程：蒸馏焚诀](https://www.douyin.com/search/%E5%8E%BBAI%E5%91%B3%E6%95%99%E7%A8%8B?modal_id=7671147819436100905&type=general) | 我不是码神 | 章节描述分析作品习惯、转成 Skill、反复整合，再由人微调细节和逻辑。 | 仅保留人机协同、反复校验和局部微调；排除第三方风格蒸馏、检测结果和“看不出 AI”效果目标。 |
+| [用 AI 写作“人机感”一直很强？我的方法](https://www.douyin.com/search/%E5%8E%BBAI%E5%91%B3%E6%95%99%E7%A8%8B?modal_id=7640636073336507683&type=general) | 柱子哥TzFilm | 章节将个人风格 Skill 拆成语气、断句、例子和反复调试，强调形成自己的规则库。 | 采用用户自有样本的低层校准与迭代复核；排除强行热梗、网络化口吻和“无 AI 味”保证。 |
+
+## 抖音逐篇精读日志（第 9 批：新增 4 条公开章节正文）
+
+| 详情 | 作者 | 读到的核心 | 可迁移/排除 |
+|---|---|---|---|
+| [机器味太重了，教你 4 招](https://www.douyin.com/search/AI%E8%85%94%20%E5%86%99%E4%BD%9C?modal_id=7642659219597970714&type=general) | 明知是意外 | 打破死板结构、把学术腔换成大白话、拆解套路话术和人工定稿，并强调保留核心信息与专业术语。 | 采用结构、语体、术语保真和人工终审；排除加入虚假个人经验、强制短段和口语化。 |
+| [AI 写的文章没人味？教你用自己的语气出内容](https://www.douyin.com/search/AI%E8%85%94%20%E5%86%99%E4%BD%9C?modal_id=7642717717467794722&type=general) | 进阶的喵绿 | 投喂历史素材、拆解语言/结构/思维、制定不写规则、生成后反馈迭代。 | 仅在用户自有且获授权样本上做低层校准；排除第三方声音蒸馏和身份伪造。 |
+| [Ai 改稿，别再说“优化一下”了](https://www.douyin.com/search/AI%E8%85%94%20%E5%86%99%E4%BD%9C?modal_id=7674623106060799247&type=general) | AI 超能力老马 | 将改稿拆为判断虚实、压缩空话、改实内容、处理不顺、降低模板味、改标题和结尾，并核对新增事实与语气一致性。 | 采用可执行问题路由与改后差异核查；排除“优化一下”式模糊授权和检测分数。 |
+| [AI 写作去除 AI 味道？](https://www.douyin.com/search/%E5%8E%BBAI%E5%91%B3%E6%95%99%E7%A8%8B?modal_id=7604780221467725110&type=general) | 雷哥 AI | 以公开的 AI 写作特征指南和 Skill 工具做诊断，再用于写作与其他工程场景。 | 仅采用诊断与编辑分开、规则来源可追溯；排除跨领域效果保证和“去痕迹”承诺。 |
 
 ## 知乎续读日志
 
@@ -245,6 +279,17 @@
 | [别再说“自然一点”了！这份去AI味清单，救活了我的AI写稿](https://mp.weixin.qq.com/s?src=11&timestamp=1787564404&ver=6924&signature=B-pEVU6CwvBHOhXH1J4ufr6GPBAAPei*LovwWgcRCDYIT8zUsZtXbymJ6wMkPDot*IZwpyhdZtvFnRpFn1Ru2o9d-NqzAP9h5KcLsieDWuLuTMzQLoje6Vwgap3unwEr&new=1) | 小C，页面未显示日期 | 全文精读 | 模板不能取代判断；把反复出现的用户确认问题沉淀为规则，并让模型审阅规则本身，但最后由作者选择采纳。 | 采用“规则回顾、问题反馈、规则瘦身、编辑与审阅分离”。 | 不把长破折号、连接词或固定段落当绝对禁令；不盲从模型的“更完整/更宏大”建议。 |
 | [最简单直接的过朱雀去AI味方式：“流水句”与“意合”](https://mp.weixin.qq.com/s?src=11&timestamp=1787564404&ver=6924&signature=05qn-kyHHbndWdnLbbx54u3OtpoAFCYx1nssmw2RNuZQrgKrkd0sOEKX1Hw9-o8tzGgFamMIg0PfHNwgYkAPb6W77akKLpm-mGjw1MSewcjGxxuHdb*J6DlKRyNBo1YZ&new=1) | 心辰，页面未显示日期 | 全文精读 | “流水句/意合”可在特定叙述场景中用于动作连贯与语气推进，文章自身也承认不宜过长。 | 仅把它保留为叙事/口语文本可选的句法手段，必须服从读者、句义和可读性。 | 明确排除“过朱雀”检测规避、固定逗号/意思层数量、强制省略主语、注入情绪评价和领取提示词导流。 |
 | [AI写的稿子总有股味儿：我把去AI味的方法揉成了清单](https://mp.weixin.qq.com/s?src=11&timestamp=1787564404&ver=6924&signature=wGtZs2hAjmxLoEWm2l5mA3JjstjmPBxknvcRhIBgjxKBg1hHWcDuW33x3DKsXRmjo*h7mWXtzT*NB3hh7VEmDiHzwhzLoJrhAAEOIlAw9*MZw4x407M3*NPIPFxPUij1&new=1) | 页面未显示作者 | 全文精读 | 可将动作概括为删无效结构、调节节奏、在用户材料允许时补具体信息、保留事实与核心观点；也警示硬加口头词和编经历会更假。 | 与现有“先删空话—按场景重建—保真终审”相互印证。 | 不采纳强制第一人称、固定“补自然转折”或无材料的具体化；不以“朋友聊天感”取代所有正式语体。 |
+
+## 公众号逐篇精读日志（第 8 页：本轮自然恢复后新增）
+
+| 标题 | 作者/日期 | 正文状态 | 学到什么 | 处理决定 |
+|---|---|---|---|---|
+| [去 AI 味不是改词，是我调了三轮才懂的节奏问题](https://mp.weixin.qq.com/s?src=11&timestamp=1787572902&ver=6924&signature=iU301A4UAa7JiNCZ1VF1eaNDNc3XDG5SBebySHiCYGpTGhJjTMHHXILZcfk5PC-dNwyVjIqvLP7olzsrcPpmX0bXT-YB-FuG8T1UJ41HDnP9yDkiJNi6-4ikLzMw6MdW&new=1) | 阿拉丁 AI 神灯，2026-08-17 | 全文精读 | 将表层高频短语与结构节奏区分开，强调真实独有信息、长短句变化和拆排比；同时承认检测器结果会抖动。 | 采用信息账本、节奏复核和资料不足先追问；不采用检测分数、黑名单和固定句段比例作为目标。 |
+| [AI写小说怎么去AI味？我试了8种方法的终极总结](https://mp.weixin.qq.com/s?src=11&timestamp=1787572902&ver=6924&signature=KIT5FnpxtRxZF3muSWJgNRFXSOm6ALF0zgwX5dAJ9ippa4gYWqHiZgNiuc62DI4866eqTvsEwhxGx-z-LBKlibhj1jdNEeHzmH6kabtuJjjoM2K9eqgZiPad4ZJIKo0B&new=1) | 邪门的AI轻赋能，2026-08-20 | 全文精读（小说场景） | 将角色语言、感官细节、视角跳跃、长短句和场景取舍拆开讨论；文章还含未经核验的留存率、检测和工具宣传。 | 采用小说场景的视角、动作、节奏复核；排除植入个人经历、伪造数据、方言配方、检测交叉验证和工具效果评级。 |
+| [去 AI 味，\"36 计\"](https://mp.weixin.qq.com/s?src=11&timestamp=1787572902&ver=6924&signature=kP*bezfIUQ2PmD-xpZNXMbdy2vqMZbb*Q*vs3pOazrUyCH7h0KlKtR68pgnm*tJdU5yFlE05a80h2iMlW22w-6MH29*B2cCoxVi9jPatSttl386Lrg82jAzmUqJ-BEkQ&new=1) | AI 经纬线，2026-08-18 | 全文精读（图文正文） | 介绍 humanizer、humanizer-zh 与 stop-slop，概括六条结构/具体性/回读法则，并强调作者自己回读。 | 仅采用工具发现入口、结构/具体性/回读；排除把杂质、第一人称或 24 条特征当硬规则，也不复制项目原文。 |
+| [免费ai写作去AI味：开源活人感写作Skill实测，让AI写的中文像人话](https://mp.weixin.qq.com/s?src=11&timestamp=1787573216&ver=6924&signature=pycxzkY4CfjXxk6Epm2r4iMvgE-pk03Vu9gbWxfZKHWBfdnW-IOvOdDjE*FJKyeMrBdtLkNGVy-Wo4aW56hgkTxMtoP5LSh4WldPrtdVuiS*h4xAf4wp91NfkPMMFkNa&new=1) | 赛博上片指南，2026-08-11 | 全文精读（GitHub Skill 实测） | 文章将该 Skill 拆为材料门槛、文章推进和中文表达三层，并指出检测脚本只负责发现形状、不替作者改文。 | 采用材料不足先追问、段落职责和检测/改写分离；项目版本、Star 数和营销性效果回到 GitHub 一手核验，不复制其规则原文。 |
+| [去AI味skill：62种模式精准检测，你的文章还逃得过吗？](https://mp.weixin.qq.com/s?src=11&timestamp=1787573216&ver=6924&signature=6dvJ*sllIQ-uvt5OPN-QFXE1MLwcN*7BzPtG1Y8W5PyYLGyB1F43rEl4VFhsqcHEuADXuXigCSq7ZxTnz9hU9vKvutIdPwHBIM-aVA*Tsfmiom-lYukoNacu4d5Wr*1O&new=1) | 老六AI，2026-08-20 | 全文精读（检测/编辑工具介绍） | 将检测与重写、只检测、原地编辑分开，并按词汇、结构、节奏、对话语气和作者侧信号分类。 | 采用“诊断与改写分离、按场景选择语气”的抽象；不采纳 62/112 等未经一手源码核验的覆盖量、检测精度或作者身份判断。 |
+| [去 AI 味，不是简单的把几个词换掉](https://mp.weixin.qq.com/s?src=11&timestamp=1787573516&ver=6924&signature=*JHFdTvO3Phlbf3xibkWd-kJxATVNquaRMiVtlBHUtQJPO1thuA5*ACKqCjoLAj3qC0e*dOLxlo2vLH-ucOoyhFglXORO4*CYe80lXECQy6pd46s9mvDva-6YXcx0Hsj&new=1) | Ming与Ai，2026-08-17 | 全文精读 | 明确提出结构优先于词语，按“资料初稿—腔调检查—中文重写—补回自有信息—文风终审”分工，并将检测降级为提示。 | 采用工作流分层、场景路由、事实/数字/责任边界保护和朗读终审；排除第三方风格蒸馏、检测分数和硬禁词。 |
 
 ### 公众号访问状态
 
