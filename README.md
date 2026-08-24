@@ -35,8 +35,12 @@
 
 ## 研究与引用
 
-本版本的研究范围是：知乎 50 篇、微信公众号 50 篇、小红书 50 篇、抖音 50 篇；GitHub 研究超过 50 个公开项目，并对代表性仓库的 README、SKILL 或技术说明及许可证状态做了核验。逐篇记录、访问状态和去重口径见 [`research/source-reading-matrix-2026-08-24.md`](research/source-reading-matrix-2026-08-24.md)、[`research/github-primary-followup-2026-08-24.md`](research/github-primary-followup-2026-08-24.md)、[`research/wechat-reading-log-2026-08-24.md`](research/wechat-reading-log-2026-08-24.md)、[`research/xiaohongshu-reading-log-2026-08-24.md`](research/xiaohongshu-reading-log-2026-08-24.md) 和 [`research/short-video-public-access-audit-2026-08-24.md`](research/short-video-public-access-audit-2026-08-24.md)。候选摘要、反爬验证页和不可读页面不会被冒充为全文精读。
+本版本吸收的公开材料来自：知乎 50 篇、微信公众号 50 篇、小红书 50 篇、抖音 50 篇，以及 GitHub 超过 50 个项目。对外展示只标注平台名称，不展示社交平台的具体链接、标题、作者或账号。
 
-代表性一手来源包括 [KKKKhazix/human-writing](https://github.com/KKKKhazix/human-writing)、[petergyang/no-ai-slop](https://github.com/petergyang/no-ai-slop)、[blader/humanizer](https://github.com/blader/humanizer)、[lynote-ai/best-humanizer-handbook](https://github.com/lynote-ai/best-humanizer-handbook)、[lynote-ai/humanize-text](https://github.com/lynote-ai/humanize-text)、[lynote-ai/ai-text-detector](https://github.com/lynote-ai/ai-text-detector)、[Haojae/scipilot-writing-skill](https://github.com/Haojae/scipilot-writing-skill)、[puneethkotha/humanizer-workbench](https://github.com/puneethkotha/humanizer-workbench)、[lguz/humanize-writing-skill](https://github.com/lguz/humanize-writing-skill)、[weijt606/anti-vibe-writing](https://github.com/weijt606/anti-vibe-writing)、[numen-tech/slopornot](https://github.com/numen-tech/slopornot) 和 [asavvin-pixel/unslop](https://github.com/asavvin-pixel/unslop)。更多项目与许可证逐项见 GitHub 精读记录。
+引用规则：只引用 skill。
 
-许可证处理：MIT 等允许学习和再分发的仓库只吸收抽象原则，不复制原文、示例、代码或可识别作者声口；CC BY-NC、无许可证或许可证声明冲突的材料仅作研究参考，不移植其文本。平台文章、短视频和公众号内容只引用公开链接与研究结论，不重印正文。所有“检测规避、伪造经历、故意噪声、第三方风格复刻”路线均明确排除。
+- 社交平台：只标平台名称（知乎、微信公众号、小红书、抖音），不展示具体链接。
+- GitHub skill：保留参考链接。代表性来源包括 [KKKKhazix/human-writing](https://github.com/KKKKhazix/human-writing)、[petergyang/no-ai-slop](https://github.com/petergyang/no-ai-slop)、[Haojae/scipilot-writing-skill](https://github.com/Haojae/scipilot-writing-skill)、[lguz/humanize-writing-skill](https://github.com/lguz/humanize-writing-skill)、[weijt606/anti-vibe-writing](https://github.com/weijt606/anti-vibe-writing)、[Aboudjem/humanizer-skill](https://github.com/Aboudjem/humanizer-skill)、[lynote-ai/humanize-text-skill](https://github.com/lynote-ai/humanize-text-skill) 和 [cangtianhuang/humanizer-academic-zh](https://github.com/cangtianhuang/humanizer-academic-zh)。
+- GitHub 非 skill 项目：只标“GitHub 来源”，不展示具体仓库链接。
+
+许可证处理：只吸收允许研究和再分发的 skill 的抽象原则，不复制原文、示例、代码或可识别作者声口。无许可证、非 skill 或许可证声明冲突的材料只作研究参考，不作为引用对象。所有“检测规避、伪造经历、故意噪声、第三方风格复刻”路线均明确排除。

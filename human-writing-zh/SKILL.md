@@ -64,6 +64,13 @@ description: Use when Chinese text needs 去AI味, 说人话, 自然一点, 别�
 | 用户要求解释“为什么像 AI”、比较工具/检测结论、评估新规则 | `reference/evidence-and-evaluation.md` |
 | 长文重写、学术/法律/技术/销售材料，或原文含链接、引用、代码、CTA | `reference/content-fidelity-and-scope.md` |
 
+## 来源展示与引用
+
+- 对外展示研究背景时，只写平台名称：知乎、微信公众号、小红书、抖音、GitHub；社交平台只标平台名称，不展示社交平台具体链接、文章标题、作者或账号。
+- 只引用 skill。GitHub skill 可以给出仓库参考链接；GitHub 上的非 skill 项目只标“GitHub”，不附具体仓库链接。
+- 引用用于说明方法来源，不等于背书、合作或复制许可；正文仍须使用本 skill 的独立表述。
+- `research/` 内部审计可以保留研究证据，但运行时交付和 WorkBuddy 展示不主动输出这些链接。
+
 不要为了“看起来全面”一次读完所有参考资料。按任务加载需要的部分。
 
 ## 不可跨越的边界

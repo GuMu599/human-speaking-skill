@@ -34,6 +34,10 @@
 - `evaluations/skill-contract.ps1`：无依赖的 PowerShell 完整性检查。
 - `agents/openai.yaml`：支持该约定的界面元数据。
 
+## 来源展示规则
+
+只展示平台名称：知乎、微信公众号、小红书、抖音、GitHub。只引用 skill；GitHub skill 可保留参考链接，其他来源不展示具体链接。
+
 ## 验证
 
 在 PowerShell 中运行：
