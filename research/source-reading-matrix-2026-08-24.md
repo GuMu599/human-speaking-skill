@@ -9,13 +9,40 @@
 - **候选卡片/摘要**：只看到搜索结果或摘要，不能等同全文阅读，只能作为后续线索。
 - **一手项目精读**：已阅读项目的核心规则/源码说明，并核对许可证；允许学习抽象方法，不迁移原文。
 
-首轮检索候选总量：知乎 111、小红书 102、抖音 63、公众号索引 55。平台候选已经达到“每个平台至少 50 条”；本矩阵会持续将其中的实际精读状态逐条落档，不能将候选数误报为已全文精读数。
+首轮检索候选总量：知乎 111、小红书 102、抖音 63、公众号索引 55。平台候选已经达到“每个平台至少 50 条”。截至本次更新，完成正文精读的平台材料为知乎 5 篇、公众号 1 篇；本矩阵会持续将实际精读状态逐条落档，不能将候选数误报为已全文精读数。
 
 ## 已全文精读的平台材料
 
 | 平台 | 标题与来源 | 发布信息 | 核心观察 | 采用 | 排除/限制 |
 |---|---|---|---|---|---|
 | 知乎 | [小红书推荐的 10 个“去 AI 味”工具，我全装了一遍，到底有没有用？](https://zhuanlan.zhihu.com/p/2060416407553192756) | Skill白鼠鼠，2026-07-14 | 将提示词、CLI、检测研究误放在同一“Skill”类别会使比较失真；禁词、破折号、段长等机械指标会误伤 PM 术语与文体；过时检测器和分数变化不能替代人工保真审读。 | 把“先确认能力类型”“检测只作旁证”“场景术语白名单/保护库存”纳入证据层。 | 文中以特定在世作者风格蒸馏为正面方案；本项目不提供第三方作者模仿。评论中的“注入经历/情绪/瑕疵”也不采纳，避免编造。 |
+| 知乎 | [去AI味的万能指令](https://zhuanlan.zhihu.com/p/2023089606573179162) | 海哥的庄园，2026-04-02 | 把改写分成口语化、结构精简、主题聚焦、句式节奏和场景适配，说明“改什么”应随任务变化。 | 采用任务路由与“保留核心信息”的方向。 | “用更夸张的词替换平淡词”“插入问句或感叹句”不是默认动作；“复刻样本风格”只允许改成用户已授权的自有样本低层校准。 |
+| 知乎 | [去 AI 味的 10 大 skill 榜](https://zhuanlan.zhihu.com/p/2053788148824535758) | 张3phone，页面可读 | 将去套话、场景适配、提示词前置、人工补经验和自有历史内容的声音校准串成流程，并明确“口语化仍可能空洞”“自然不等于故意写乱”。 | 采用“源头提示词 + 编辑 + 人工核查”的分工，及自有样本声音校准。 | 文中部分项目被归类为文本 skill 但实际并非同类；“加入真实经验”只在用户提供或明确要求创作时成立，不能由编辑凭空补。 |
+| 知乎 | [AI写小说怎么去除AI味（我实测过的方法）](https://zhuanlan.zhihu.com/p/2071744201377818281) | 淡然的鱼，页面可读 | 网文场景要分开处理叙述与对话；人物说话是否符合身份、事件是否有可感动作，比机械“降智/不完美”更重要。 | 新增小说/叙事路由：保护视角、人物身份、时间线、因果，并单独核对对话。 | 小说创作可有虚构细节；非虚构改写不得借此伪造作者经历或事实。 |
+| 知乎 | [怎么去掉文章中的AI味道？](https://www.zhihu.com/question/1885649578352681753/answer/1888248822783784315) | 多个回答，页面可读 | 包含朗读后再组织、反复审阅等方法，也展示了“保证任何检测都不认为是 AI”“强制加入人称、细节和生活案例”等常见主张。 | 朗读和人工回读可作为低风险复核方法。 | 明确排除检测规避保证、把所有文体口语化、以及无来源的第一人称/案例/情绪注入。 |
+| 公众号 | [去AI味｜我花了3小时，教AI像人](https://mp.weixin.qq.com/s?src=11&timestamp=1787554948&ver=6923&signature=iZDv4r8zGIpyFKi9QZ*zlYYwNd9PTqPZl72Cf7jksFUrkUotc87FFsXEX2x9ElTiVSJonzLYH8GsviIXWXRCFO73Kl24PldNEHhCnePaIooNipOI2praaWoyOOqlFq6S&new=1) | AI检测助手，2026-03-27 | 将“翻译循环、打乱句式、故意错别字、模糊情绪、编造个人叙事”归为常见反 AI 腔套路；指出把反套路标准化会形成新的模板，并提出真实、可归属的个人细节不能靠伪造替代。 | 强化“不能以瑕疵/错别字/伪经历伪造人味”“不把检测率当目标”。 | 文中自称采访、学者与案例没有可独立核验的出处；末尾是 AI 率检测/降率产品推广。两者均不作为事实证据或 skill 功能。 |
+
+## 本轮继续精读的 GitHub 一手项目
+
+| 项目（许可证） | 已读材料 | 可迁移原则 | 排除或限制 |
+|---|---|---|---|
+| [ll-humanizer-zh](https://github.com/liuliu-66-create/ll-humanizer-zh)（MIT） | README | “替读者想”、纠正型表达、自问自答、居高临下和报告腔可单独诊断；用户无上下文时应直接处理，不默认追问。 | 不把“更口语”当所有文本的默认；个人声口仍限自有样本。 |
+| [aigc-humanizer-zh](https://github.com/shuohui-air-technology/aigc-humanizer-zh)（MIT） | README、工具链说明 | 学术文本可先屏蔽/保护公式，逐段决定是否改，再做还原与质量核对。 | AIGC 评分、统计阈值和“准确率/降低率”不能用于本 skill 的作者判断或验收。 |
+| [humanizer-academic-zh](https://github.com/cangtianhuang/humanizer-academic-zh)（MIT） | README | “不改内容，改模式”适合作为学术场景的简洁约束。 | 不迁移其检测器导向。 |
+| [zh-humanizer-literary](https://github.com/mengke-wang/zh-humanizer-literary)（MIT） | README | 具体的人、场景、动作、后果可替代抽象判断；区分事实、推断和建议。 | 不采纳其基于特定在世创作者公开表达提炼声口的路径；本项目只做自有样本校准。 |
+| [writing-humanizer](https://github.com/shyuan/writing-humanizer)（MIT） | README | 内容、语言、排版、沟通和结构可分层审计；本地化规则必须按语言而非直接移植。 | 31 类模式和计分不等于作者鉴定；繁体台湾规则不作为简体默认。 |
+| [humanizer-skill](https://github.com/Aboudjem/humanizer-skill)（MIT） | README | 检测/改写/只编辑可分为不同模式；避免过度编辑是独立质量目标。 | 句长波动和“气味分数”不作为质量结论。 |
+| [humanizer-stack](https://github.com/NulightJens/humanizer-stack)（无 SPDX） | README | 先做表层清理，再审结构与段落职责的两层顺序值得参考。 | 无许可证仅作 ideas-only；其论文和检测数字需追溯原始研究后才可作为证据。 |
+| [humanize](https://github.com/harshaneel/humanize)（MIT） | README | 基于独立评分者的评测设计可借鉴为“多维保真 + 人工审读”，并明确规则的能力上限。 | 其作者归因、检测与对抗性技术不纳入本项目。 |
+| [unslop](https://github.com/asavvin-pixel/unslop)（MIT） | README | 排版、词汇、结构和认识论分层；只有真实、已有的具体性才可使用；避免把新替换词变成重复口癖。 | 外部研究结论待回溯原文；不凭“看起来更具体”补数字或案例。 |
+| [HumanAI](https://github.com/MADEVAL/HumanAI)（MIT） | README | 清理→具体性→语气→节奏→校对是可选择、可跳过的阶段；支持只诊断。 | 不强制每篇跑完整流水线，不采用“让读者忘记机器参与”的目标。 |
+| [humanize-text-skill](https://github.com/lynote-ai/humanize-text-skill)（MIT） | README | 命令、路径、版本、日志、引文可作为保护跨度；场景路由与声口漂移应分开看。 | 不使用其检测分数取代保真回读。 |
+| [humanizer-ru](https://github.com/Vladimir-Human/humanizer-ru)（MIT） | README | 误伤自然文本的代价高于漏掉一个模式；正则可辅助做残留检查。 | 俄语模式和计数阈值不跨语言硬移植。 |
+| [humanizer-ja](https://github.com/gonta223/humanizer-ja)（MIT） | README | 对说教开场、过度接续、否定并列、模板结尾的审计可迁移为“候选信号”。 | 日语敬语/主语规则不迁移到中文。 |
+| [agent-skills](https://github.com/humanizerai/agent-skills)（MIT） | README | 检测、改写、可读性等能力可模块化区分。 | 其明确的检测规避产品定位不兼容本项目。 |
+| [AI-Text-Humanizer-Protocol](https://github.com/Pythonation/AI-Text-Humanizer-Protocol)（仓库标注与 README 许可不一致） | README | 可作为“提示词会诱导伪具体性/人格注入”的反例。 | 许可证和内容声明冲突；不移植。 |
+| [ai-humanizer-mcp-server](https://github.com/Text2Go/ai-humanizer-mcp-server)（MIT） | README | 术语和关键短语保留是应有能力。 | 无法从 README 验证其“检测准确”声明，且不需要新增外部 MCP 依赖。 |
+| [humanize-ai-lib](https://github.com/Nordth/humanize-ai-lib)（MIT） | README | 清理隐藏字符、尾随空格等发布残留可作为机械质检。 | 不把破折号或引号规范化当“人味”策略。 |
 
 ## 本轮实际打开的其他平台页面
 
