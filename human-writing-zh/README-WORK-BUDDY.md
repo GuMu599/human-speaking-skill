@@ -30,7 +30,7 @@
 
 - `SKILL.md`：触发条件、模式、主流程与边界。
 - `INTRODUCTION.md`：技能介绍、名称与核心特点。
-- `reference/`：诊断改写、场景语气、提示词与产品文案、最终质检。
+- `reference/`：综合研究原则、诊断改写、场景语气、提示词与产品文案、最终质检。
 - `evaluations/skill-contract.ps1`：无依赖的 PowerShell 完整性检查。
 - `agents/openai.yaml`：支持该约定的界面元数据。
 

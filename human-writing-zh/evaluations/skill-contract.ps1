@@ -18,6 +18,7 @@ $requiredPhrases = @(
     '提示词增强',
     '不要承诺规避检测或保证分数',
     'reference/diagnosis-and-rewrite.md',
+    'reference/integrated-research-principles.md',
     'reference/scenes-and-voices.md',
     'reference/prompt-and-product-copy.md',
     'reference/final-quality-gate.md',
