@@ -14,10 +14,9 @@ if (-not (Test-Path -LiteralPath $genericZip)) {
 }
 
 foreach ($phrase in @(
-    '通用 Agent Skill',
     'human-writing-zh-skill.zip',
-    'WorkBuddy 只是可选适配入口',
-    '不支持 Skill 文件的 AI'
+    'INSTALLATION.md',
+    'WorkBuddy 适配包'
 )) {
     if ($readme -notlike "*$phrase*") {
         throw "README is missing universal-distribution guidance: $phrase"
