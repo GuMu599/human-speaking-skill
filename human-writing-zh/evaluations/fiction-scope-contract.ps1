@@ -1,4 +1,4 @@
-$ErrorActionPreference = 'Stop'
+﻿$ErrorActionPreference = 'Stop'
 
 $skillRoot = Split-Path -Parent $PSScriptRoot
 $referencePath = Join-Path $skillRoot 'reference/scenes-and-voices.md'

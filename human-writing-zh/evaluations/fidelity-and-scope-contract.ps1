@@ -1,4 +1,4 @@
-$ErrorActionPreference = 'Stop'
+﻿$ErrorActionPreference = 'Stop'
 
 $skillRoot = Split-Path -Parent $PSScriptRoot
 $skillPath = Join-Path $skillRoot 'SKILL.md'
