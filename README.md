@@ -2,7 +2,7 @@
 
 > 把“看起来很对”的中文，改成“有人认真说了这句话”的中文。
 
-一个面向中文表达的“去 AI 味”技能包。它在保留事实、立场和证据强度的前提下，清理空泛套话与模板化结构，再根据读者和场景校准语气。最终版融合了跨平台公开材料与 GitHub 一手 skill 的抽象方法，但不复制第三方原文，也不提供检测规避流程。
+一个面向中文表达的通用 Agent Skill，不绑定 WorkBuddy。它在保留事实、立场和证据强度的前提下，清理空泛套话与模板化结构，再根据读者和场景校准语气。最终版融合了跨平台公开材料与 GitHub 一手 skill 的抽象方法，但不复制第三方原文，也不提供检测规避流程。
 
 ## 适用场景
 
@@ -15,7 +15,9 @@
 
 ## 使用
 
-下载 [human-writing-zh-work-buddy.zip](human-writing-zh-work-buddy.zip) 后，直接导入 Work Buddy。也可以使用仓库中的 `human-writing-zh/` 目录作为技能源。
+优先下载通用包 [human-writing-zh-skill.zip](human-writing-zh-skill.zip)，或直接使用仓库中的完整 `human-writing-zh/` 目录。它适用于支持 Agent Skills、`SKILL.md` 或项目知识文件的 AI Agent。
+
+WorkBuddy 只是可选适配入口：使用 WorkBuddy 时，再下载 [human-writing-zh-work-buddy.zip](human-writing-zh-work-buddy.zip) 导入。其他平台的安装方式、降级方案和目录要求见 [INSTALLATION.md](INSTALLATION.md)。不支持 Skill 文件的 AI 也能使用：将 `SKILL.md` 和按需的 `reference/` 文件作为系统提示词或项目上下文导入。
 
 示例：
 
@@ -30,6 +32,7 @@
 - `human-writing-zh/SKILL.md`：触发条件、模式、主流程与边界
 - `human-writing-zh/reference/`：综合研究原则、诊断改写、场景语气、提示词与产品文案、最终质检、证据评测与内容保真
 - `human-writing-zh/INTRODUCTION.md`：完整介绍
+- `INSTALLATION.md`：通用安装与平台适配说明；WorkBuddy 仅为其中一个适配层
 - `human-writing-zh/evaluations/`：完整性、研究整合、内容保真与范围控制检查
 - `research/`：多平台候选调查与逐篇精读矩阵；候选卡片与全文精读状态会明确区分
 
