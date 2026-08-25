@@ -49,7 +49,7 @@ foreach ($relativePath in $requiredFiles) {
 }
 
 $frontmatter = ($skill -split '---')[1]
-if ($frontmatter -notmatch '(?m)^name: human-writing-zh$') {
+if ($frontmatter -notmatch '(?m)^name: human-writing-zh\r?$') {
     throw 'Invalid or missing skill name in YAML frontmatter.'
 }
 if ($frontmatter -notmatch '(?m)^description:') {
