@@ -41,7 +41,7 @@ foreach ($phrase in @(
     '小红书 50 篇',
     '抖音 50 篇',
     '许可证',
-    '不复制原文'
+    '引用规则'
 )) {
     if ($readme -notlike "*$phrase*") {
         throw "README is missing research attribution: $phrase"

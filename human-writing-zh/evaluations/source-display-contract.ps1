@@ -29,9 +29,9 @@ foreach ($phrase in @(
 }
 
 foreach ($phrase in @(
-    '社交平台：只标平台名称',
-    'GitHub skill：保留参考链接',
-    '只引用 skill'
+    '社交平台只标平台名称',
+    'GitHub skill 保留链接',
+    '引用规则'
 )) {
     if ($readme -notlike "*$phrase*") {
         throw "README is missing source-display policy: $phrase"
