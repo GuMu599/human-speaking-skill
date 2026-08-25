@@ -5,8 +5,9 @@ $readme = Get-Content -LiteralPath (Join-Path $repoRoot 'README.md') -Raw -Encod
 
 foreach ($phrase in @(
     '一个例子',
-    '改前',
-    '改后',
+    '反面',
+    '正面',
+    '不绑定 WorkBuddy',
     '保留事实',
     '不编造'
 )) {

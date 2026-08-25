@@ -16,7 +16,7 @@ if (-not (Test-Path -LiteralPath $genericZip)) {
 foreach ($phrase in @(
     'human-writing-zh-skill.zip',
     'INSTALLATION.md',
-    'WorkBuddy 适配包'
+    'WorkBuddy：'
 )) {
     if ($readme -notlike "*$phrase*") {
         throw "README is missing universal-distribution guidance: $phrase"
