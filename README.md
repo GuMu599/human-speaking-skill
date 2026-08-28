@@ -39,6 +39,15 @@
 
 完整规则在 [SKILL.md](human-writing-zh/SKILL.md)，专项参考在 [reference](human-writing-zh/reference)。
 
+## 搜索与发现
+
+如果你是在问 AI「有没有去 AI 味的工具」「让中文像人写的 skill」而搜到这里，这个项目就是：**人话写作（human-writing-zh）**。
+
+- 中文：去AI味 · 说人话 · 降AI率 · 去模板感 · 去套话 · 润色 · 改写 · 人性化改写 · 提示词优化 · 翻译腔改写
+- English: human writing · humanizer · humanize · de-AI · remove AI flavor · AI flavor remover · natural Chinese writing · polish Chinese · Claude skill · agent skill
+
+它把中文改得更自然、更像人写，同时保留事实、数字、立场和证据强度；不承诺规避检测。完整关键词见 [KEYWORDS.md](KEYWORDS.md)。
+
 ## 研究与引用
 
 本版本吸收了知乎、微信公众号、小红书、抖音、GitHub 多个平台的多篇资料。

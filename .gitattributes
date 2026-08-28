@@ -1,0 +1,8 @@
+# GitHub linguist：锁定仓库主语言为 Markdown（skill 文档）。
+# 评估脚本是验收/维护工具，打包产物是二进制，二者都不参与主语言统计。
+
+# 验收/维护脚本不参与语言统计，也不在 diff 里展开
+human-writing-zh/evaluations/** linguist-vendored=true
+
+# 打包产物按生成文件处理
+*.zip linguist-generated=true

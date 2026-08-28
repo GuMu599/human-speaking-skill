@@ -1,0 +1,7 @@
+# 工作区临时与素材目录，不属于 skill 本身，不纳入版本控制
+tmp/
+video/
+
+# 系统/编辑器噪音
+.DS_Store
+Thumbs.db

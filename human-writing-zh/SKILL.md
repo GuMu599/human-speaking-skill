@@ -1,6 +1,6 @@
 ---
 name: human-writing-zh
-description: Use when Chinese text needs 去AI味, 说人话, 自然一点, 别像AI, 去模板感, 润色, 改写, 降AI率, humanizer-zh, stopslop, taste-skill, ai-flavor-remover, shuorenhua, or De-AI-prompt-enhancer; also use for Chinese copy, reports, essays, speeches, emails, social posts, UI copy, captions, translations, or prompts that sound templated, inflated, stiff, or generic.
+description: Use when Chinese text needs 去AI味, 说人话, 自然一点, 别像AI, 去模板感, 润色, 改写, 降AI率, 人话写作, 人性化改写, 去套话, 去官腔, 文案润色, 提示词优化, 翻译腔改写, humanizer-zh, stopslop, taste-skill, ai-flavor-remover, shuorenhua, De-AI-prompt-enhancer, humanizer, humanize, de-AI, remove AI flavor, AI-slop remover, or natural Chinese writing; also use for Chinese copy, reports, essays, speeches, emails, social posts, UI copy, captions, translations, or prompts that sound templated, inflated, stiff, robotic, or generic.
 ---
 
 # Human Writing ZH
